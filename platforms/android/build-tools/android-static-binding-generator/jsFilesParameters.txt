@@ -1,0 +1,2 @@
+/home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/app.js
+/home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/pages/main-page.js

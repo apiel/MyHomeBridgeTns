@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-25.1.1_701ce1b473fd6aafa80d1adbac93b4325b3d88f8.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-fragment-25.1.1_ff84c3fb68b4aa7d8d3eb638a9cde3a7cb459650.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-media-compat-25.1.1_634040c08996737c09bc9eefaed9a412f92d1a1b.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-utils-25.1.1_82574b229cb17b5e9d8bebed382bd568c432ec5a.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/MyHomeBridge/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="632bf39700c28ba66c117628dab343126ef89551">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/MyHomeBridge-runtime-unspecified_f8c7a6b2b2221d8914ed8d5361361fa2990fb0a9.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-animated-vector-drawable-25.1.1_6c26d7162304af78273277a7734e26fa55944a31.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-transition-25.1.1_e640c4ddf75f708f07f6b829ff43564eb04b1b13.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8a73b09319cc3945912970487ced4c7724acc97d">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-widgets-release_8502b8e79e7a12ba9a77662a40d9c4a8dfd61177.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/MyHomeBridge/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/binding-generator_bcb0ebd534eb805bb66ea14c8f6ac37e22a091e1.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-recyclerview-v7-25.1.1_b417307050ceeab90a267e55f46df6321ed2b55f.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-25.1.1_16e02de81ed558cf930fe00ba0ed6791c4144825.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-ui-25.1.1_945b879b2c70e4bc0d28fdb85df5abd3ef16e9da.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-design-25.1.1_6b82f4c14b7a99b4166dab31cb287d699f442acb.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-compat-25.1.1_0ef46d16b9e11da59ab175b7bc0073c9b643f31e.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-appcompat-v7-25.1.1_f95954cf852c7bf1248cfb44b5969cf04dd0ccfe.jar" />
+    </item>
+    <item
+        jar="/home/alex/dev/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/home/alex/dev/nativescript/MyHomeBridge/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-25.1.1_7b5404ce27abc7cf5bcca75ae1ae3f8f9883386a.jar" />
+    </item>
+
+</items>
