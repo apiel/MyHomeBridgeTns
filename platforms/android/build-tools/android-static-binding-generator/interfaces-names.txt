@@ -996,6 +996,9 @@ android.support.transition.TransitionInterface
 android.support.transition.TransitionPort.TransitionListener
 android.support.transition.VisibilityImpl
 android.support.transition.VisibilityInterface
+android.support.v7.widget.CardViewDelegate
+android.support.v7.widget.RoundRectDrawableWithShadow.RoundRectHelper
+android.support.v7.widget.CardViewImpl
 android.support.v4.app.TaskStackBuilder.TaskStackBuilderImpl
 android.support.v4.app.NavUtils.NavUtilsImpl
 android.support.v4.app.TaskStackBuilder.SupportParentable
