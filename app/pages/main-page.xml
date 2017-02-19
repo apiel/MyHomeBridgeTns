@@ -14,18 +14,26 @@ https://docs.nativescript.org/ui/components.
     <Page.actionBar>
         <ActionBar title="MyHomeBridge">
                 <NavigationButton tap="{{ onBack }}" android.systemIcon="ic_ab_back_holo_light"></NavigationButton>
-                <ActionItem tap="{{ onOpenSettings }}" android.systemIcon="ic_menu_preferences" ios.systemIcon="2" />
+                <ActionItem tap="{{ onYo }}" android.systemIcon="ic_ab_back_holo_light" />
+                <ActionItem tap="{{ onOpenSettings }}" icon="~/images/cog.png" />
         </ActionBar>        
     </Page.actionBar>
     <ScrollView>
         <StackLayout id="swipable">
-            <Label text="Tap the button" class="h1 text-center"/>
-            <Button text="TAP YO" tap="{{ onTap }}" class="btn btn-primary btn-active"/>
-            <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>
+            <StackLayout id="idloop">
+                <Label text="name" class="h3" margin="10" />
+                <Label text="helo" class="h3" margin="10" />
+            </StackLayout>
 
-            <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
-                <Label text="yo" class="h1 text-center"/>
-            </Card:CardView>
+
+
+            <Repeater items="{{ items }}">
+                <Repeater.itemTemplate>
+                        <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
+                            <Label text="{{ name }}" class="h3" margin="10" />
+                        </Card:CardView>
+                </Repeater.itemTemplate>
+            </Repeater>        
 
             <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
                 <SegmentedBar>
@@ -39,42 +47,6 @@ https://docs.nativescript.org/ui/components.
 
             <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
                 <Slider value="18" minValue="5" maxValue="30" />
-            </Card:CardView>
-
-            <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
-                <Label text="yo" class="h1 text-center"/>
-            </Card:CardView>
-
-            <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
-                <Label text="yo" class="h1 text-center"/>
-            </Card:CardView>
-
-            <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
-                <Label text="yo" class="h1 text-center"/>
-            </Card:CardView>
-
-            <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
-                <Label text="yo" class="h1 text-center"/>
-            </Card:CardView>
-
-            <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
-                <Label text="yo" class="h1 text-center"/>
-            </Card:CardView>
-
-            <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
-                <Label text="yo" class="h1 text-center"/>
-            </Card:CardView>
-
-            <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
-                <Label text="yo" class="h1 text-center"/>
-            </Card:CardView>
-
-            <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
-                <Label text="yo" class="h1 text-center"/>
-            </Card:CardView>
-
-            <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
-                <Label text="yo" class="h1 text-center"/>
             </Card:CardView>
         </StackLayout>
     </ScrollView>
