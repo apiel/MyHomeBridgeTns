@@ -22,6 +22,9 @@ import { DockLayout } from "ui/layouts/dock-layout";
 import { SegmentedBar, SegmentedBarItem } from "ui/segmented-bar";
 import { CardView } from 'nativescript-cardview';
 
+import MqttProvider from '../lib/mqtt.provider';
+import MqttService from '../lib/mqtt.service';
+
 class Item{
   name: string; 
   key: string;
@@ -31,6 +34,24 @@ class Item{
 }
 
 class Context extends Observable {
+    public mqttService: MqttService;
+
+    constructor() {
+        super();
+        console.log('context main page');
+        // this.mqttService = MqttProvider.get('ws://127.0.0.1:3030');
+        // console.log('worker');
+        // var worker = new Worker('../lib/mqtt.provider');
+        // worker.postMessage('world');
+        // worker.onmessage = function(msg) {
+        //     console.log('worker.onmessage', msg);
+        // }
+        // worker.onerror = function(err) {
+        //     console.log(`An unhandled error occurred in worker: ${err.filename}, line: ${err.lineno} :`);
+        //     console.log(err.message);
+        // }        
+        // console.log('worker done');
+    }
     // items: any = new observableArrayModule.ObservableArray([
     //     {name: "Light table", key: "item/garage/table/light", status: "off", values: ["on", "off"]},
     //     {name: "Floor heating on", key: "action/floorHeatingOn"},
@@ -91,6 +112,8 @@ class Context extends Observable {
 }
 
 export function navigatingTo(args: EventData) {
+    console.log('navigatingTo main page');
+
     let page = <Page>args.object;
     page.bindingContext = new Context();
 
@@ -124,6 +147,7 @@ export function navigatingTo(args: EventData) {
             let slider = new Slider;
             slider.minValue = item.number.min;
             slider.maxValue = item.number.max;
+            slider.value = item.status;
             stackLayout.addChild(slider);
 
             let dockLayout: DockLayout = new DockLayout;
@@ -135,7 +159,11 @@ export function navigatingTo(args: EventData) {
             let maxLabel: Label = new Label;
             maxLabel.text = item.number.max;
             DockLayout.setDock(maxLabel, enums.Dock.right);
-            dockLayout.addChild(maxLabel);            
+            dockLayout.addChild(maxLabel);             
+            let valueLabel: Label = new Label;
+            valueLabel.text = item.status;
+            valueLabel.textAlignment = 'center';
+            dockLayout.addChild(valueLabel); 
         }
         else if (!item.hasOwnProperty('status')) {
             let button: Button = new Button;

@@ -4,7 +4,9 @@ of which NativeScript renders with a platform-specific iOS or Android native con
 You can find a full list of user interface components you can use in your app at
 https://docs.nativescript.org/ui/components.
 -->
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" 
+      xmlns:Card="nativescript-cardview"
+      navigatingTo="navigatingTo" class="page">
     <!--
     The ActionBar is the NativeScript common abstraction over the Android ActionBar and iOS NavigationBar.
     http://docs.nativescript.org/ui/action-bar
@@ -12,23 +14,33 @@ https://docs.nativescript.org/ui/components.
     <Page.actionBar>
         <ActionBar title="MyHomeBridge">
                 <NavigationButton tap="{{ onBack }}" android.systemIcon="ic_ab_back_holo_light"></NavigationButton>
-                <ActionItem tap="{{ onOpenSettings }}" android.systemIcon="ic_menu_preferences" ios.systemIcon="2" />
+                <ActionItem tap="{{ onYo }}" android.systemIcon="ic_ab_back_holo_light" />
+                <ActionItem tap="{{ onOpenSettings }}" icon="~/images/cog.png" />
         </ActionBar>        
     </Page.actionBar>
-    <!--
-    The StackLayout stacks UI components on the screen—either vertically or horizontally.
-    In this case, the StackLayout does vertical stacking; you can change the stacking to
-    horizontal by applying a orientation="horizontal" attribute to the <StackLayout> element.
-    You can learn more about NativeScript layouts at
-    https://docs.nativescript.org/ui/layout-containers.
+    <ScrollView>
+        <StackLayout id="swipable">
+            <!--<Repeater items="{{ items }}">
+                <Repeater.itemTemplate>
+                        <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
+                            <Label text="{{ name }}" class="h3" margin="10" />
+                        </Card:CardView>
+                </Repeater.itemTemplate>
+            </Repeater>        
 
-    These components make use of several CSS class names that are part of the NativeScript
-    core theme, such as p-20, btn, h2, and text-center. You can view a full list of the
-    class names available for styling your app at https://docs.nativescript.org/ui/theme.
-    -->
-    <StackLayout class="p-20" id="swipable">
-        <Label text="Tap the button" class="h1 text-center"/>
-        <Button text="TAP YO" tap="{{ onTap }}" class="btn btn-primary btn-active"/>
-        <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>
-    </StackLayout>
+            <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
+                <SegmentedBar>
+                    <SegmentedBar.items>
+                        <SegmentedBarItem title="Item 1" />
+                        <SegmentedBarItem title="Item 2" />
+                        <SegmentedBarItem title="Item 3" />
+                    </SegmentedBar.items>
+                </SegmentedBar>
+            </Card:CardView>
+
+            <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
+                <Slider value="18" minValue="5" maxValue="30" />
+            </Card:CardView>-->
+        </StackLayout>
+    </ScrollView>
 </Page>

@@ -4,6 +4,7 @@
 /home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/main-view-model.js
 /home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/pages/settings.js
 /home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/pages/drawer.js
+/home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/pages/item.js
 /home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/pages/main-page.js
 /home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/bundle-entry-points.js
 /home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/image-source/image-source.js
@@ -165,3 +166,6 @@
 /home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/css-value/index.js
 /home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/debugger/debugger.js
 /home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/tns_modules/nativescript-cardview/cardview.js
+/home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/lib/mqtt.provider.js
+/home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/lib/mqtt.service.js
+/home/alex/dev/nativescript/MyHomeBridge/platforms/android/src/main/assets/app/xml-declaration/mymodule.js
